@@ -12,9 +12,9 @@ May 13, 2021
 
 ## Overview
 
-Adapted from [SpeechBrain](https://github.com/speechbrain/speechbrain/tree/develop/recipes/TIMIT/ASR/seq2seq).
+Significant work has been done on automatic speech recognition (ASR) techniques, notably including fairly successful implementations such as Siri and Alexa. However, ASR is a different task than automatic phone recognition (APR), which involves consistently identifying not words but the unique and irreducible sounds from which words may be formed. In recent years, phoneme detection has shown its prominence in unique tasks such as transcribing unheard or poorly documented language (e.g. Inuktitut), tracking children’s exposure to word diversity, detecting speech and voice disorders, and automating theoretical but untested methods in machine phonological assessment. In this [paper](./paper.pdf), we articulate our process of minimizing the phone error rate (PER) by employing numerous deep learning models.
 
-Link to our [paper](./docs/paper.pdf).
+Adapted from [SpeechBrain](https://github.com/speechbrain/speechbrain/tree/develop/recipes/TIMIT/ASR/seq2seq)
 
 ## TIMIT ASR with seq2seq Models
 
