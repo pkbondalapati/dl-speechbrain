@@ -14,7 +14,7 @@ May 13, 2021
 
 Adapted from [SpeechBrain](https://github.com/speechbrain/speechbrain/tree/develop/recipes/TIMIT/ASR/seq2seq).
 
-This project is articulated in detail in our paper.
+Link to our [paper](./docs/paper.pdf).
 
 ## TIMIT ASR with seq2seq Models
 
@@ -42,8 +42,7 @@ Run this command to train the model:
 
 4. `%cd ..`
 
-5. `!gdown --id '1EIfBmwiT0RF3-U81-Qu5K4J27N31BdB5'
-    ## --output /content/speechbrain_s2s_wav2vec_ckpt.zip`
+5. `!gdown --id '1EIfBmwiT0RF3-U81-Qu5K4J27N31BdB5' ## --output /content/speechbrain_s2s_wav2vec_ckpt.zip`
 
 6. `!unzip speechbrain_s2s_wav2vec_ckpt.zip`
 
